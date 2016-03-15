@@ -7,8 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "HJAnimationViewController.h"
 
-@interface AppDelegate ()
+@interface AppDelegate () <HJAnimationViewControllerDelegate>
 
 @end
 
@@ -17,6 +18,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    HJAnimationViewController * animationVC = [[HJAnimationViewController alloc] init];
+    animationVC.delegate = self;
+    
+    UINavigationController * navc = [[UINavigationController alloc] initWithRootViewController:animationVC];
+    navc.navigationBar.translucent = NO;
+    
+    self.window.rootViewController = navc;
+    
     return YES;
 }
 
