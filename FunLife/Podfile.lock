@@ -39,6 +39,9 @@ PODS:
     - HXPhotoPicker/Core
   - IQKeyboardManagerSwift (6.5.12)
   - Kingfisher (7.9.0)
+  - LookinServer (1.1.7):
+    - LookinServer/Core (= 1.1.7)
+  - LookinServer/Core (1.1.7)
   - lottie-ios (4.2.0)
   - MMKV (1.3.0):
     - MMKVCore (~> 1.3.0)
@@ -47,9 +50,6 @@ PODS:
     - Moya/Core (= 15.0.0)
   - Moya/Core (15.0.0):
     - Alamofire (~> 5.0)
-  - ReactiveCocoa (12.0.0):
-    - ReactiveSwift (~> 7.0)
-  - ReactiveSwift (7.1.1)
   - Realm (10.42.0):
     - Realm/Headers (= 10.42.0)
   - Realm/Headers (10.42.0)
@@ -65,10 +65,10 @@ DEPENDENCIES:
   - HXPhotoPicker
   - IQKeyboardManagerSwift
   - Kingfisher
+  - LookinServer
   - lottie-ios
   - MMKV
   - Moya
-  - ReactiveCocoa
   - RealmSwift
   - RxSwift
   - SnapKit
@@ -82,12 +82,11 @@ SPEC REPOS:
     - HXPhotoPicker
     - IQKeyboardManagerSwift
     - Kingfisher
+    - LookinServer
     - lottie-ios
     - MMKV
     - MMKVCore
     - Moya
-    - ReactiveCocoa
-    - ReactiveSwift
     - Realm
     - RealmSwift
     - RxSwift
@@ -101,12 +100,11 @@ SPEC CHECKSUMS:
   HXPhotoPicker: 66b395a1248bed42cc4c3b0a89c40197fa11a99c
   IQKeyboardManagerSwift: 371b08cb39664fb56030f5345c815a4ffc74bbc0
   Kingfisher: 59f908b6d2f403b0a3e539debb0eec05cb27002c
+  LookinServer: 4ce0469b066871525611d009d8d16a7a50c23491
   lottie-ios: 809ecf2d460ed650a6aed7aa88b2ec45fab4779c
   MMKV: 9c6c3fa4ddd849f28c7b9a5c9d23aab84f14ee35
   MMKVCore: 9bb7440b170181ac5b81f542ac258103542e693d
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
-  ReactiveCocoa: 5d10386f0ce09f922006efbf784881c5fade27c5
-  ReactiveSwift: 477d3f5bc2eb3cbbba1c1636505752b83bef93b1
   Realm: 490aad28f1360e58fc22256d5d686d3a36525346
   RealmSwift: f6a9b56d747bbdd7931de1835896c5f024b6898a
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
@@ -114,6 +112,6 @@ SPEC CHECKSUMS:
   SwiftDate: bbc26e26fc8c0c33fbee8c140c5e8a68293a148a
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: 116e453f64e048a743ca39e56c7880ed4ed58d0f
+PODFILE CHECKSUM: 0074ee6127d16612591bb2fc6c58094034dc7c31
 
 COCOAPODS: 1.12.1

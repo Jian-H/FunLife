@@ -1,7 +1,7 @@
 #source 'https://github.com/CocoaPods/Specs.git'
 source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 
-platform :ios, '16.0'
+platform :ios, '13.0'
 use_frameworks!
 ## ignore warning
 inhibit_all_warnings!
@@ -9,56 +9,57 @@ inhibit_all_warnings!
 target 'FunLife' do
 
   pod 'RxSwift'
-  
-#  pod 'SwiftOCR'
-  
+#
+##  pod 'SwiftOCR'
+#
   pod 'lottie-ios'
-  
+
   pod 'HXPhotoPicker'
-  
+
   pod 'SwiftyJSON'
-  
+
   pod 'Hero'
-  
+
   pod 'Kingfisher'
-  
-  pod 'ReactiveCocoa'
-  
+
+#  pod 'ReactiveCocoa'
+
   pod 'SnapKit'
-  
+
   pod 'IQKeyboardManagerSwift'
-  
+
   pod 'MMKV'
-  
+
   pod 'RealmSwift'
-  
+
   pod 'Moya'
-  #pod 'Moya/RxSwift'
-  #pod 'Moya/ReactiveSwift'
-  #pod 'Moya/Combine'
-  
+##  pod 'Moya/RxSwift'
+##  pod 'Moya/ReactiveSwift'
+##  pod 'Moya/Combine'
+#
   pod 'SwiftDate'
-  
-  #pod 'SVGAPlayer'
-  
-  #pod 'LookinServer', :configurations => ['Debug']
+#  
+#  pod 'SVGAPlayer'
+#  
+  pod 'LookinServer', :configurations => ['Debug']
 
 end
 
-post_install do |installer|
-    
-  installer.pods_project.build_configurations.each do |config|
-      config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
-  end
-  
-  installer.pods_project.targets.each do |target|
-    target.build_configurations.each do |config|
-      config.build_settings['APPLICATION_EXTENSION_API_ONLY'] = 'No'
-      #config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '11.0'
+#post_install do |installer|
+#
+#  installer.pods_project.build_configurations.each do |config|
 #      config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
-      if config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'].to_f < 16.0
-          config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '16.0'
-      end
-    end
-  end
-end
+#  end
+#
+#  installer.pods_project.targets.each do |target|
+#    target.build_configurations.each do |config|
+#      config.build_settings['APPLICATION_EXTENSION_API_ONLY'] = 'No'
+#      #config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '11.0'
+##      config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
+#      if config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'].to_f < 13.0
+#          config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+#      end
+#    end
+#  end
+#end
+
