@@ -3,84 +3,75 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FEE69771E8F380E291A6DA3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8192BA25F3FECCEEAD2D9711 /* libPods.a */; };
-		26D1A18C1C980130005C8DE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D1A18B1C980130005C8DE0 /* main.m */; };
-		26D1A18F1C980130005C8DE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D1A18E1C980130005C8DE0 /* AppDelegate.m */; };
-		26D1A1921C980130005C8DE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D1A1911C980130005C8DE0 /* ViewController.m */; };
-		26D1A1951C980130005C8DE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D1A1931C980130005C8DE0 /* Main.storyboard */; };
-		26D1A1971C980130005C8DE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26D1A1961C980130005C8DE0 /* Assets.xcassets */; };
-		26D1A19A1C980130005C8DE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D1A1981C980130005C8DE0 /* LaunchScreen.storyboard */; };
-		26D1A1A51C980130005C8DE0 /* FunLifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D1A1A41C980130005C8DE0 /* FunLifeTests.m */; };
-		26D1A1B01C980130005C8DE0 /* FunLifeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D1A1AF1C980130005C8DE0 /* FunLifeUITests.m */; };
-		26D1A1C51C9801B3005C8DE0 /* HJAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D1A1C01C9801B3005C8DE0 /* HJAnimationViewController.m */; };
-		26D1A1C61C9801B3005C8DE0 /* HJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D1A1C21C9801B3005C8DE0 /* HJBaseViewController.m */; };
+		2A66F67B5316AD3ECA919FA6 /* Pods_FunLife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABF0DF09336A64764085F0C /* Pods_FunLife.framework */; };
+		B31D66472A79160B0015091B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31D66462A79160B0015091B /* AppDelegate.swift */; };
+		B31D66492A79160B0015091B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31D66482A79160B0015091B /* SceneDelegate.swift */; };
+		B31D664B2A79160B0015091B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31D664A2A79160B0015091B /* ViewController.swift */; };
+		B31D664E2A79160B0015091B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B31D664C2A79160B0015091B /* Main.storyboard */; };
+		B31D66502A79160D0015091B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B31D664F2A79160D0015091B /* Assets.xcassets */; };
+		B31D66532A79160D0015091B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B31D66512A79160D0015091B /* LaunchScreen.storyboard */; };
+		B31D665E2A79160D0015091B /* FunLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31D665D2A79160D0015091B /* FunLifeTests.swift */; };
+		B31D66682A79160D0015091B /* FunLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31D66672A79160D0015091B /* FunLifeUITests.swift */; };
+		B31D666A2A79160D0015091B /* FunLifeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31D66692A79160D0015091B /* FunLifeUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		26D1A1A11C980130005C8DE0 /* PBXContainerItemProxy */ = {
+		B31D665A2A79160D0015091B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 26D1A17F1C980130005C8DE0 /* Project object */;
+			containerPortal = B31D663B2A79160B0015091B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 26D1A1861C980130005C8DE0;
+			remoteGlobalIDString = B31D66422A79160B0015091B;
 			remoteInfo = FunLife;
 		};
-		26D1A1AC1C980130005C8DE0 /* PBXContainerItemProxy */ = {
+		B31D66642A79160D0015091B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 26D1A17F1C980130005C8DE0 /* Project object */;
+			containerPortal = B31D663B2A79160B0015091B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 26D1A1861C980130005C8DE0;
+			remoteGlobalIDString = B31D66422A79160B0015091B;
 			remoteInfo = FunLife;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		26D1A1871C980130005C8DE0 /* FunLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		26D1A18B1C980130005C8DE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		26D1A18D1C980130005C8DE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		26D1A18E1C980130005C8DE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		26D1A1901C980130005C8DE0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		26D1A1911C980130005C8DE0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		26D1A1941C980130005C8DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		26D1A1961C980130005C8DE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		26D1A1991C980130005C8DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		26D1A19B1C980130005C8DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26D1A1A01C980130005C8DE0 /* FunLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		26D1A1A41C980130005C8DE0 /* FunLifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunLifeTests.m; sourceTree = "<group>"; };
-		26D1A1A61C980130005C8DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26D1A1AB1C980130005C8DE0 /* FunLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		26D1A1AF1C980130005C8DE0 /* FunLifeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunLifeUITests.m; sourceTree = "<group>"; };
-		26D1A1B11C980130005C8DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26D1A1BF1C9801B3005C8DE0 /* HJAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJAnimationViewController.h; sourceTree = "<group>"; };
-		26D1A1C01C9801B3005C8DE0 /* HJAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJAnimationViewController.m; sourceTree = "<group>"; };
-		26D1A1C11C9801B3005C8DE0 /* HJBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJBaseViewController.h; sourceTree = "<group>"; };
-		26D1A1C21C9801B3005C8DE0 /* HJBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJBaseViewController.m; sourceTree = "<group>"; };
-		26D1A1C41C9801B3005C8DE0 /* HJDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJDefine.h; sourceTree = "<group>"; };
-		8192BA25F3FECCEEAD2D9711 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D108834B6BBD779F13694DC3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		FB3532121360B56D3C20E494 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6ABF0DF09336A64764085F0C /* Pods_FunLife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunLife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4604DAE68BC356BF4B032F /* Pods-FunLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunLife.release.xcconfig"; path = "Target Support Files/Pods-FunLife/Pods-FunLife.release.xcconfig"; sourceTree = "<group>"; };
+		B300DFCE3E298BB265511A01 /* Pods-FunLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunLife.debug.xcconfig"; path = "Target Support Files/Pods-FunLife/Pods-FunLife.debug.xcconfig"; sourceTree = "<group>"; };
+		B31D66432A79160B0015091B /* FunLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31D66462A79160B0015091B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B31D66482A79160B0015091B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B31D664A2A79160B0015091B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B31D664D2A79160B0015091B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B31D664F2A79160D0015091B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B31D66522A79160D0015091B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B31D66542A79160D0015091B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B31D66592A79160D0015091B /* FunLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31D665D2A79160D0015091B /* FunLifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunLifeTests.swift; sourceTree = "<group>"; };
+		B31D66632A79160D0015091B /* FunLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31D66672A79160D0015091B /* FunLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunLifeUITests.swift; sourceTree = "<group>"; };
+		B31D66692A79160D0015091B /* FunLifeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunLifeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		26D1A1841C980130005C8DE0 /* Frameworks */ = {
+		B31D66402A79160B0015091B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FEE69771E8F380E291A6DA3 /* libPods.a in Frameworks */,
+				2A66F67B5316AD3ECA919FA6 /* Pods_FunLife.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26D1A19D1C980130005C8DE0 /* Frameworks */ = {
+		B31D66562A79160D0015091B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26D1A1A81C980130005C8DE0 /* Frameworks */ = {
+		B31D66602A79160D0015091B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,129 +81,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D6896A42760E2051997F309 /* Pods */ = {
+		B31D663A2A79160B0015091B = {
 			isa = PBXGroup;
 			children = (
-				D108834B6BBD779F13694DC3 /* Pods.debug.xcconfig */,
-				FB3532121360B56D3C20E494 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		26D1A17E1C980130005C8DE0 = {
-			isa = PBXGroup;
-			children = (
-				26D1A1891C980130005C8DE0 /* FunLife */,
-				26D1A1A31C980130005C8DE0 /* FunLifeTests */,
-				26D1A1AE1C980130005C8DE0 /* FunLifeUITests */,
-				26D1A1881C980130005C8DE0 /* Products */,
-				1D6896A42760E2051997F309 /* Pods */,
-				6A3BFC3B3197A1E4A5E430B8 /* Frameworks */,
+				B31D66452A79160B0015091B /* FunLife */,
+				B31D665C2A79160D0015091B /* FunLifeTests */,
+				B31D66662A79160D0015091B /* FunLifeUITests */,
+				B31D66442A79160B0015091B /* Products */,
+				D49598F91CAEDAB7510A7569 /* Pods */,
+				C922FF99C786CDD9FFD2EFF1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		26D1A1881C980130005C8DE0 /* Products */ = {
+		B31D66442A79160B0015091B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				26D1A1871C980130005C8DE0 /* FunLife.app */,
-				26D1A1A01C980130005C8DE0 /* FunLifeTests.xctest */,
-				26D1A1AB1C980130005C8DE0 /* FunLifeUITests.xctest */,
+				B31D66432A79160B0015091B /* FunLife.app */,
+				B31D66592A79160D0015091B /* FunLifeTests.xctest */,
+				B31D66632A79160D0015091B /* FunLifeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		26D1A1891C980130005C8DE0 /* FunLife */ = {
+		B31D66452A79160B0015091B /* FunLife */ = {
 			isa = PBXGroup;
 			children = (
-				26D1A1BD1C9801B3005C8DE0 /* Project */,
-				26D1A18D1C980130005C8DE0 /* AppDelegate.h */,
-				26D1A18E1C980130005C8DE0 /* AppDelegate.m */,
-				26D1A1901C980130005C8DE0 /* ViewController.h */,
-				26D1A1911C980130005C8DE0 /* ViewController.m */,
-				26D1A1931C980130005C8DE0 /* Main.storyboard */,
-				26D1A1961C980130005C8DE0 /* Assets.xcassets */,
-				26D1A1981C980130005C8DE0 /* LaunchScreen.storyboard */,
-				26D1A19B1C980130005C8DE0 /* Info.plist */,
-				26D1A18A1C980130005C8DE0 /* Supporting Files */,
+				B31D66462A79160B0015091B /* AppDelegate.swift */,
+				B31D66482A79160B0015091B /* SceneDelegate.swift */,
+				B31D664A2A79160B0015091B /* ViewController.swift */,
+				B31D664C2A79160B0015091B /* Main.storyboard */,
+				B31D664F2A79160D0015091B /* Assets.xcassets */,
+				B31D66512A79160D0015091B /* LaunchScreen.storyboard */,
+				B31D66542A79160D0015091B /* Info.plist */,
 			);
 			path = FunLife;
 			sourceTree = "<group>";
 		};
-		26D1A18A1C980130005C8DE0 /* Supporting Files */ = {
+		B31D665C2A79160D0015091B /* FunLifeTests */ = {
 			isa = PBXGroup;
 			children = (
-				26D1A18B1C980130005C8DE0 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		26D1A1A31C980130005C8DE0 /* FunLifeTests */ = {
-			isa = PBXGroup;
-			children = (
-				26D1A1A41C980130005C8DE0 /* FunLifeTests.m */,
-				26D1A1A61C980130005C8DE0 /* Info.plist */,
+				B31D665D2A79160D0015091B /* FunLifeTests.swift */,
 			);
 			path = FunLifeTests;
 			sourceTree = "<group>";
 		};
-		26D1A1AE1C980130005C8DE0 /* FunLifeUITests */ = {
+		B31D66662A79160D0015091B /* FunLifeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				26D1A1AF1C980130005C8DE0 /* FunLifeUITests.m */,
-				26D1A1B11C980130005C8DE0 /* Info.plist */,
+				B31D66672A79160D0015091B /* FunLifeUITests.swift */,
+				B31D66692A79160D0015091B /* FunLifeUITestsLaunchTests.swift */,
 			);
 			path = FunLifeUITests;
 			sourceTree = "<group>";
 		};
-		26D1A1BD1C9801B3005C8DE0 /* Project */ = {
+		C922FF99C786CDD9FFD2EFF1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				26D1A1BE1C9801B3005C8DE0 /* BaseViewController */,
-				26D1A1C31C9801B3005C8DE0 /* OpenResource */,
-			);
-			path = Project;
-			sourceTree = "<group>";
-		};
-		26D1A1BE1C9801B3005C8DE0 /* BaseViewController */ = {
-			isa = PBXGroup;
-			children = (
-				26D1A1BF1C9801B3005C8DE0 /* HJAnimationViewController.h */,
-				26D1A1C01C9801B3005C8DE0 /* HJAnimationViewController.m */,
-				26D1A1C11C9801B3005C8DE0 /* HJBaseViewController.h */,
-				26D1A1C21C9801B3005C8DE0 /* HJBaseViewController.m */,
-			);
-			path = BaseViewController;
-			sourceTree = "<group>";
-		};
-		26D1A1C31C9801B3005C8DE0 /* OpenResource */ = {
-			isa = PBXGroup;
-			children = (
-				26D1A1C41C9801B3005C8DE0 /* HJDefine.h */,
-			);
-			path = OpenResource;
-			sourceTree = "<group>";
-		};
-		6A3BFC3B3197A1E4A5E430B8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8192BA25F3FECCEEAD2D9711 /* libPods.a */,
+				6ABF0DF09336A64764085F0C /* Pods_FunLife.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D49598F91CAEDAB7510A7569 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B300DFCE3E298BB265511A01 /* Pods-FunLife.debug.xcconfig */,
+				7E4604DAE68BC356BF4B032F /* Pods-FunLife.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		26D1A1861C980130005C8DE0 /* FunLife */ = {
+		B31D66422A79160B0015091B /* FunLife */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26D1A1B41C980130005C8DE0 /* Build configuration list for PBXNativeTarget "FunLife" */;
+			buildConfigurationList = B31D666D2A79160D0015091B /* Build configuration list for PBXNativeTarget "FunLife" */;
 			buildPhases = (
-				8D0AF4B71F83A42C908A0D13 /* Check Pods Manifest.lock */,
-				26D1A1831C980130005C8DE0 /* Sources */,
-				26D1A1841C980130005C8DE0 /* Frameworks */,
-				26D1A1851C980130005C8DE0 /* Resources */,
-				0ACB8D6A41462A4D93139AB0 /* Embed Pods Frameworks */,
-				21B519F23BD2BBC91B2297C7 /* Copy Pods Resources */,
+				1FC62B0E1CD2E438825445D8 /* [CP] Check Pods Manifest.lock */,
+				B31D663F2A79160B0015091B /* Sources */,
+				B31D66402A79160B0015091B /* Frameworks */,
+				B31D66412A79160B0015091B /* Resources */,
+				E49F685BB192D0D7E8D7E715 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -220,106 +170,107 @@
 			);
 			name = FunLife;
 			productName = FunLife;
-			productReference = 26D1A1871C980130005C8DE0 /* FunLife.app */;
+			productReference = B31D66432A79160B0015091B /* FunLife.app */;
 			productType = "com.apple.product-type.application";
 		};
-		26D1A19F1C980130005C8DE0 /* FunLifeTests */ = {
+		B31D66582A79160D0015091B /* FunLifeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26D1A1B71C980130005C8DE0 /* Build configuration list for PBXNativeTarget "FunLifeTests" */;
+			buildConfigurationList = B31D66702A79160D0015091B /* Build configuration list for PBXNativeTarget "FunLifeTests" */;
 			buildPhases = (
-				26D1A19C1C980130005C8DE0 /* Sources */,
-				26D1A19D1C980130005C8DE0 /* Frameworks */,
-				26D1A19E1C980130005C8DE0 /* Resources */,
+				B31D66552A79160D0015091B /* Sources */,
+				B31D66562A79160D0015091B /* Frameworks */,
+				B31D66572A79160D0015091B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				26D1A1A21C980130005C8DE0 /* PBXTargetDependency */,
+				B31D665B2A79160D0015091B /* PBXTargetDependency */,
 			);
 			name = FunLifeTests;
 			productName = FunLifeTests;
-			productReference = 26D1A1A01C980130005C8DE0 /* FunLifeTests.xctest */;
+			productReference = B31D66592A79160D0015091B /* FunLifeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		26D1A1AA1C980130005C8DE0 /* FunLifeUITests */ = {
+		B31D66622A79160D0015091B /* FunLifeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26D1A1BA1C980130005C8DE0 /* Build configuration list for PBXNativeTarget "FunLifeUITests" */;
+			buildConfigurationList = B31D66732A79160D0015091B /* Build configuration list for PBXNativeTarget "FunLifeUITests" */;
 			buildPhases = (
-				26D1A1A71C980130005C8DE0 /* Sources */,
-				26D1A1A81C980130005C8DE0 /* Frameworks */,
-				26D1A1A91C980130005C8DE0 /* Resources */,
+				B31D665F2A79160D0015091B /* Sources */,
+				B31D66602A79160D0015091B /* Frameworks */,
+				B31D66612A79160D0015091B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				26D1A1AD1C980130005C8DE0 /* PBXTargetDependency */,
+				B31D66652A79160D0015091B /* PBXTargetDependency */,
 			);
 			name = FunLifeUITests;
 			productName = FunLifeUITests;
-			productReference = 26D1A1AB1C980130005C8DE0 /* FunLifeUITests.xctest */;
+			productReference = B31D66632A79160D0015091B /* FunLifeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		26D1A17F1C980130005C8DE0 /* Project object */ = {
+		B31D663B2A79160B0015091B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = huangjian;
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					26D1A1861C980130005C8DE0 = {
-						CreatedOnToolsVersion = 7.2.1;
+					B31D66422A79160B0015091B = {
+						CreatedOnToolsVersion = 14.3.1;
 					};
-					26D1A19F1C980130005C8DE0 = {
-						CreatedOnToolsVersion = 7.2.1;
-						TestTargetID = 26D1A1861C980130005C8DE0;
+					B31D66582A79160D0015091B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = B31D66422A79160B0015091B;
 					};
-					26D1A1AA1C980130005C8DE0 = {
-						CreatedOnToolsVersion = 7.2.1;
-						TestTargetID = 26D1A1861C980130005C8DE0;
+					B31D66622A79160D0015091B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = B31D66422A79160B0015091B;
 					};
 				};
 			};
-			buildConfigurationList = 26D1A1821C980130005C8DE0 /* Build configuration list for PBXProject "FunLife" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = B31D663E2A79160B0015091B /* Build configuration list for PBXProject "FunLife" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 26D1A17E1C980130005C8DE0;
-			productRefGroup = 26D1A1881C980130005C8DE0 /* Products */;
+			mainGroup = B31D663A2A79160B0015091B;
+			productRefGroup = B31D66442A79160B0015091B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				26D1A1861C980130005C8DE0 /* FunLife */,
-				26D1A19F1C980130005C8DE0 /* FunLifeTests */,
-				26D1A1AA1C980130005C8DE0 /* FunLifeUITests */,
+				B31D66422A79160B0015091B /* FunLife */,
+				B31D66582A79160D0015091B /* FunLifeTests */,
+				B31D66622A79160D0015091B /* FunLifeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		26D1A1851C980130005C8DE0 /* Resources */ = {
+		B31D66412A79160B0015091B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26D1A19A1C980130005C8DE0 /* LaunchScreen.storyboard in Resources */,
-				26D1A1971C980130005C8DE0 /* Assets.xcassets in Resources */,
-				26D1A1951C980130005C8DE0 /* Main.storyboard in Resources */,
+				B31D66532A79160D0015091B /* LaunchScreen.storyboard in Resources */,
+				B31D66502A79160D0015091B /* Assets.xcassets in Resources */,
+				B31D664E2A79160B0015091B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26D1A19E1C980130005C8DE0 /* Resources */ = {
+		B31D66572A79160D0015091B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26D1A1A91C980130005C8DE0 /* Resources */ = {
+		B31D66612A79160D0015091B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -329,110 +280,103 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0ACB8D6A41462A4D93139AB0 /* Embed Pods Frameworks */ = {
+		1FC62B0E1CD2E438825445D8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FunLife-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		21B519F23BD2BBC91B2297C7 /* Copy Pods Resources */ = {
+		E49F685BB192D0D7E8D7E715 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FunLife/Pods-FunLife-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8D0AF4B71F83A42C908A0D13 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FunLife/Pods-FunLife-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FunLife/Pods-FunLife-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		26D1A1831C980130005C8DE0 /* Sources */ = {
+		B31D663F2A79160B0015091B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26D1A1921C980130005C8DE0 /* ViewController.m in Sources */,
-				26D1A18F1C980130005C8DE0 /* AppDelegate.m in Sources */,
-				26D1A1C61C9801B3005C8DE0 /* HJBaseViewController.m in Sources */,
-				26D1A18C1C980130005C8DE0 /* main.m in Sources */,
-				26D1A1C51C9801B3005C8DE0 /* HJAnimationViewController.m in Sources */,
+				B31D664B2A79160B0015091B /* ViewController.swift in Sources */,
+				B31D66472A79160B0015091B /* AppDelegate.swift in Sources */,
+				B31D66492A79160B0015091B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26D1A19C1C980130005C8DE0 /* Sources */ = {
+		B31D66552A79160D0015091B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26D1A1A51C980130005C8DE0 /* FunLifeTests.m in Sources */,
+				B31D665E2A79160D0015091B /* FunLifeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26D1A1A71C980130005C8DE0 /* Sources */ = {
+		B31D665F2A79160D0015091B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26D1A1B01C980130005C8DE0 /* FunLifeUITests.m in Sources */,
+				B31D666A2A79160D0015091B /* FunLifeUITestsLaunchTests.swift in Sources */,
+				B31D66682A79160D0015091B /* FunLifeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		26D1A1A21C980130005C8DE0 /* PBXTargetDependency */ = {
+		B31D665B2A79160D0015091B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 26D1A1861C980130005C8DE0 /* FunLife */;
-			targetProxy = 26D1A1A11C980130005C8DE0 /* PBXContainerItemProxy */;
+			target = B31D66422A79160B0015091B /* FunLife */;
+			targetProxy = B31D665A2A79160D0015091B /* PBXContainerItemProxy */;
 		};
-		26D1A1AD1C980130005C8DE0 /* PBXTargetDependency */ = {
+		B31D66652A79160D0015091B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 26D1A1861C980130005C8DE0 /* FunLife */;
-			targetProxy = 26D1A1AC1C980130005C8DE0 /* PBXContainerItemProxy */;
+			target = B31D66422A79160B0015091B /* FunLife */;
+			targetProxy = B31D66642A79160D0015091B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		26D1A1931C980130005C8DE0 /* Main.storyboard */ = {
+		B31D664C2A79160B0015091B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				26D1A1941C980130005C8DE0 /* Base */,
+				B31D664D2A79160B0015091B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		26D1A1981C980130005C8DE0 /* LaunchScreen.storyboard */ = {
+		B31D66512A79160D0015091B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				26D1A1991C980130005C8DE0 /* Base */,
+				B31D66522A79160D0015091B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -440,29 +384,43 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		26D1A1B21C980130005C8DE0 /* Debug */ = {
+		B31D666B2A79160D0015091B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -476,37 +434,53 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		26D1A1B31C980130005C8DE0 /* Release */ = {
+		B31D666C2A79160D0015091B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -514,126 +488,194 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		26D1A1B51C980130005C8DE0 /* Debug */ = {
+		B31D666E2A79160D0015091B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D108834B6BBD779F13694DC3 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = B300DFCE3E298BB265511A01 /* Pods-FunLife.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8Y57DTNM3;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FunLife/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = huangjian.FunLife;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = china.FunLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		26D1A1B61C980130005C8DE0 /* Release */ = {
+		B31D666F2A79160D0015091B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB3532121360B56D3C20E494 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 7E4604DAE68BC356BF4B032F /* Pods-FunLife.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8Y57DTNM3;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FunLife/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = huangjian.FunLife;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = china.FunLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		26D1A1B81C980130005C8DE0 /* Debug */ = {
+		B31D66712A79160D0015091B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = FunLifeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = huangjian.FunLifeTests;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8Y57DTNM3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = china.FunLifeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunLife.app/FunLife";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunLife.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FunLife";
 			};
 			name = Debug;
 		};
-		26D1A1B91C980130005C8DE0 /* Release */ = {
+		B31D66722A79160D0015091B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = FunLifeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = huangjian.FunLifeTests;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8Y57DTNM3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = china.FunLifeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunLife.app/FunLife";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunLife.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FunLife";
 			};
 			name = Release;
 		};
-		26D1A1BB1C980130005C8DE0 /* Debug */ = {
+		B31D66742A79160D0015091B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = FunLifeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = huangjian.FunLifeUITests;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8Y57DTNM3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = china.FunLifeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = FunLife;
-				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
 		};
-		26D1A1BC1C980130005C8DE0 /* Release */ = {
+		B31D66752A79160D0015091B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = FunLifeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = huangjian.FunLifeUITests;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8Y57DTNM3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = china.FunLifeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = FunLife;
-				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		26D1A1821C980130005C8DE0 /* Build configuration list for PBXProject "FunLife" */ = {
+		B31D663E2A79160B0015091B /* Build configuration list for PBXProject "FunLife" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26D1A1B21C980130005C8DE0 /* Debug */,
-				26D1A1B31C980130005C8DE0 /* Release */,
+				B31D666B2A79160D0015091B /* Debug */,
+				B31D666C2A79160D0015091B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		26D1A1B41C980130005C8DE0 /* Build configuration list for PBXNativeTarget "FunLife" */ = {
+		B31D666D2A79160D0015091B /* Build configuration list for PBXNativeTarget "FunLife" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26D1A1B51C980130005C8DE0 /* Debug */,
-				26D1A1B61C980130005C8DE0 /* Release */,
+				B31D666E2A79160D0015091B /* Debug */,
+				B31D666F2A79160D0015091B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		26D1A1B71C980130005C8DE0 /* Build configuration list for PBXNativeTarget "FunLifeTests" */ = {
+		B31D66702A79160D0015091B /* Build configuration list for PBXNativeTarget "FunLifeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26D1A1B81C980130005C8DE0 /* Debug */,
-				26D1A1B91C980130005C8DE0 /* Release */,
+				B31D66712A79160D0015091B /* Debug */,
+				B31D66722A79160D0015091B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		26D1A1BA1C980130005C8DE0 /* Build configuration list for PBXNativeTarget "FunLifeUITests" */ = {
+		B31D66732A79160D0015091B /* Build configuration list for PBXNativeTarget "FunLifeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26D1A1BB1C980130005C8DE0 /* Debug */,
-				26D1A1BC1C980130005C8DE0 /* Release */,
+				B31D66742A79160D0015091B /* Debug */,
+				B31D66752A79160D0015091B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 26D1A17F1C980130005C8DE0 /* Project object */;
+	rootObject = B31D663B2A79160B0015091B /* Project object */;
 }

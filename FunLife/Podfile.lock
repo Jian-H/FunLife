@@ -1,27 +1,119 @@
 PODS:
-  - AFNetworking (3.0.4):
-    - AFNetworking/NSURLSession (= 3.0.4)
-    - AFNetworking/Reachability (= 3.0.4)
-    - AFNetworking/Security (= 3.0.4)
-    - AFNetworking/Serialization (= 3.0.4)
-    - AFNetworking/UIKit (= 3.0.4)
-  - AFNetworking/NSURLSession (3.0.4):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.0.4)
-  - AFNetworking/Security (3.0.4)
-  - AFNetworking/Serialization (3.0.4)
-  - AFNetworking/UIKit (3.0.4):
-    - AFNetworking/NSURLSession
-  - FDFullscreenPopGesture (1.1)
+  - Alamofire (5.7.1)
+  - Hero (1.6.2)
+  - HXPhotoPicker (4.0.4):
+    - HXPhotoPicker/Full (= 4.0.4)
+  - HXPhotoPicker/Camera (4.0.4):
+    - HXPhotoPicker/Camera/Lite (= 4.0.4)
+    - HXPhotoPicker/Camera/Location (= 4.0.4)
+  - HXPhotoPicker/Camera/Lite (4.0.4):
+    - HXPhotoPicker/Core
+  - HXPhotoPicker/Camera/Location (4.0.4):
+    - HXPhotoPicker/Camera/Lite
+  - HXPhotoPicker/Core (4.0.4)
+  - HXPhotoPicker/Editor (4.0.4):
+    - HXPhotoPicker/Editor/KF (= 4.0.4)
+    - HXPhotoPicker/Editor/Lite (= 4.0.4)
+  - HXPhotoPicker/Editor/KF (4.0.4):
+    - HXPhotoPicker/Editor/Lite
+    - HXPhotoPicker/EditorView/KF
+    - Kingfisher (~> 7.0)
+  - HXPhotoPicker/Editor/Lite (4.0.4):
+    - HXPhotoPicker/EditorView/Lite
+  - HXPhotoPicker/EditorView/KF (4.0.4):
+    - HXPhotoPicker/EditorView/Lite
+    - Kingfisher (~> 7.0)
+  - HXPhotoPicker/EditorView/Lite (4.0.4):
+    - HXPhotoPicker/Core
+  - HXPhotoPicker/Full (4.0.4):
+    - HXPhotoPicker/Camera
+    - HXPhotoPicker/Editor
+    - HXPhotoPicker/Picker
+  - HXPhotoPicker/Picker (4.0.4):
+    - HXPhotoPicker/Picker/KF (= 4.0.4)
+    - HXPhotoPicker/Picker/Lite (= 4.0.4)
+  - HXPhotoPicker/Picker/KF (4.0.4):
+    - HXPhotoPicker/Picker/Lite
+    - Kingfisher (~> 7.0)
+  - HXPhotoPicker/Picker/Lite (4.0.4):
+    - HXPhotoPicker/Core
+  - IQKeyboardManagerSwift (6.5.12)
+  - Kingfisher (7.9.0)
+  - lottie-ios (4.2.0)
+  - MMKV (1.3.0):
+    - MMKVCore (~> 1.3.0)
+  - MMKVCore (1.3.0)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - ReactiveCocoa (12.0.0):
+    - ReactiveSwift (~> 7.0)
+  - ReactiveSwift (7.1.1)
+  - Realm (10.42.0):
+    - Realm/Headers (= 10.42.0)
+  - Realm/Headers (10.42.0)
+  - RealmSwift (10.42.0):
+    - Realm (= 10.42.0)
+  - RxSwift (6.5.0)
+  - SnapKit (5.6.0)
+  - SwiftDate (7.0.0)
+  - SwiftyJSON (5.0.1)
 
 DEPENDENCIES:
-  - AFNetworking (~> 3.0.4)
-  - FDFullscreenPopGesture (~> 1.1)
+  - Hero
+  - HXPhotoPicker
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - lottie-ios
+  - MMKV
+  - Moya
+  - ReactiveCocoa
+  - RealmSwift
+  - RxSwift
+  - SnapKit
+  - SwiftDate
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - Alamofire
+    - Hero
+    - HXPhotoPicker
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - lottie-ios
+    - MMKV
+    - MMKVCore
+    - Moya
+    - ReactiveCocoa
+    - ReactiveSwift
+    - Realm
+    - RealmSwift
+    - RxSwift
+    - SnapKit
+    - SwiftDate
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
-  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
-  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  Hero: c69009dbc9e2f0472e081adc644dba05fcedae72
+  HXPhotoPicker: 66b395a1248bed42cc4c3b0a89c40197fa11a99c
+  IQKeyboardManagerSwift: 371b08cb39664fb56030f5345c815a4ffc74bbc0
+  Kingfisher: 59f908b6d2f403b0a3e539debb0eec05cb27002c
+  lottie-ios: 809ecf2d460ed650a6aed7aa88b2ec45fab4779c
+  MMKV: 9c6c3fa4ddd849f28c7b9a5c9d23aab84f14ee35
+  MMKVCore: 9bb7440b170181ac5b81f542ac258103542e693d
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  ReactiveCocoa: 5d10386f0ce09f922006efbf784881c5fade27c5
+  ReactiveSwift: 477d3f5bc2eb3cbbba1c1636505752b83bef93b1
+  Realm: 490aad28f1360e58fc22256d5d686d3a36525346
+  RealmSwift: f6a9b56d747bbdd7931de1835896c5f024b6898a
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SwiftDate: bbc26e26fc8c0c33fbee8c140c5e8a68293a148a
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 116e453f64e048a743ca39e56c7880ed4ed58d0f
+
+COCOAPODS: 1.12.1
