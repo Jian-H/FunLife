@@ -10,13 +10,22 @@
 		380EDAF9883F424C62DE29AD /* Pods_FunLife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BCCA8D4B64403E9F0F5DEA4 /* Pods_FunLife.framework */; };
 		B34CE9EC2A79473100F68C7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34CE9EB2A79473100F68C7D /* AppDelegate.swift */; };
 		B34CE9EE2A79473100F68C7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34CE9ED2A79473100F68C7D /* SceneDelegate.swift */; };
-		B34CE9F02A79473100F68C7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34CE9EF2A79473100F68C7D /* ViewController.swift */; };
 		B34CE9F32A79473100F68C7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B34CE9F12A79473100F68C7D /* Main.storyboard */; };
 		B34CE9F52A79473300F68C7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B34CE9F42A79473300F68C7D /* Assets.xcassets */; };
 		B34CE9F82A79473300F68C7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B34CE9F62A79473300F68C7D /* LaunchScreen.storyboard */; };
 		B34CEA032A79473300F68C7D /* FunLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34CEA022A79473300F68C7D /* FunLifeTests.swift */; };
 		B34CEA0D2A79473300F68C7D /* FunLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34CEA0C2A79473300F68C7D /* FunLifeUITests.swift */; };
 		B34CEA0F2A79473300F68C7D /* FunLifeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34CEA0E2A79473300F68C7D /* FunLifeUITestsLaunchTests.swift */; };
+		B3EC5EC72A79E4B600B640BF /* FLMainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EC5EC32A79E4B500B640BF /* FLMainNavigationController.swift */; };
+		B3EC5EC82A79E4B600B640BF /* FLMainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EC5EC42A79E4B500B640BF /* FLMainTabBarController.swift */; };
+		B3EC5EC92A79E4B600B640BF /* FLBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EC5EC52A79E4B500B640BF /* FLBaseViewController.swift */; };
+		B3EC5ECA2A79E4B600B640BF /* FLRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EC5EC62A79E4B500B640BF /* FLRootViewController.swift */; };
+		B3EC5ED12A79E9AD00B640BF /* FLHome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3EC5ED02A79E9AD00B640BF /* FLHome.storyboard */; };
+		B3EC5ED62A79EA4200B640BF /* FLHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EC5ED52A79EA4100B640BF /* FLHomeViewController.swift */; };
+		B3EC5EDB2A79EB1500B640BF /* FLTools.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3EC5EDA2A79EB1500B640BF /* FLTools.storyboard */; };
+		B3EC5EDD2A79EB3300B640BF /* FLToolsMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EC5EDC2A79EB3300B640BF /* FLToolsMainViewController.swift */; };
+		B3EC5EDF2A79FC7A00B640BF /* FLHomeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EC5EDE2A79FC7A00B640BF /* FLHomeListCell.swift */; };
+		B3EC5EE12A7A02DF00B640BF /* FLHomeDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EC5EE02A7A02DF00B640BF /* FLHomeDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +52,6 @@
 		B34CE9E82A79473100F68C7D /* FunLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B34CE9EB2A79473100F68C7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B34CE9ED2A79473100F68C7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B34CE9EF2A79473100F68C7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B34CE9F22A79473100F68C7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B34CE9F42A79473300F68C7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B34CE9F72A79473300F68C7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +61,16 @@
 		B34CEA082A79473300F68C7D /* FunLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B34CEA0C2A79473300F68C7D /* FunLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunLifeUITests.swift; sourceTree = "<group>"; };
 		B34CEA0E2A79473300F68C7D /* FunLifeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunLifeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B3EC5EC32A79E4B500B640BF /* FLMainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLMainNavigationController.swift; sourceTree = "<group>"; };
+		B3EC5EC42A79E4B500B640BF /* FLMainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLMainTabBarController.swift; sourceTree = "<group>"; };
+		B3EC5EC52A79E4B500B640BF /* FLBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLBaseViewController.swift; sourceTree = "<group>"; };
+		B3EC5EC62A79E4B500B640BF /* FLRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLRootViewController.swift; sourceTree = "<group>"; };
+		B3EC5ED02A79E9AD00B640BF /* FLHome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FLHome.storyboard; sourceTree = "<group>"; };
+		B3EC5ED52A79EA4100B640BF /* FLHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLHomeViewController.swift; sourceTree = "<group>"; };
+		B3EC5EDA2A79EB1500B640BF /* FLTools.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FLTools.storyboard; sourceTree = "<group>"; };
+		B3EC5EDC2A79EB3300B640BF /* FLToolsMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLToolsMainViewController.swift; sourceTree = "<group>"; };
+		B3EC5EDE2A79FC7A00B640BF /* FLHomeListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLHomeListCell.swift; sourceTree = "<group>"; };
+		B3EC5EE02A7A02DF00B640BF /* FLHomeDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLHomeDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,13 +132,10 @@
 		B34CE9EA2A79473100F68C7D /* FunLife */ = {
 			isa = PBXGroup;
 			children = (
-				B34CE9EB2A79473100F68C7D /* AppDelegate.swift */,
-				B34CE9ED2A79473100F68C7D /* SceneDelegate.swift */,
-				B34CE9EF2A79473100F68C7D /* ViewController.swift */,
-				B34CE9F12A79473100F68C7D /* Main.storyboard */,
-				B34CE9F42A79473300F68C7D /* Assets.xcassets */,
-				B34CE9F62A79473300F68C7D /* LaunchScreen.storyboard */,
-				B34CE9F92A79473300F68C7D /* Info.plist */,
+				B3EC5ECB2A79E5B100B640BF /* Delegate */,
+				B3EC5EC22A79E4B500B640BF /* BaseSource */,
+				B3EC5ECD2A79E91D00B640BF /* Modules */,
+				B3EC5ECC2A79E5D600B640BF /* SupportingFiles */,
 			);
 			path = FunLife;
 			sourceTree = "<group>";
@@ -142,13 +157,120 @@
 			path = FunLifeUITests;
 			sourceTree = "<group>";
 		};
+		B3EC5EC22A79E4B500B640BF /* BaseSource */ = {
+			isa = PBXGroup;
+			children = (
+				B3EC5EC62A79E4B500B640BF /* FLRootViewController.swift */,
+				B3EC5EC32A79E4B500B640BF /* FLMainNavigationController.swift */,
+				B3EC5EC42A79E4B500B640BF /* FLMainTabBarController.swift */,
+				B3EC5EC52A79E4B500B640BF /* FLBaseViewController.swift */,
+			);
+			path = BaseSource;
+			sourceTree = "<group>";
+		};
+		B3EC5ECB2A79E5B100B640BF /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				B34CE9EB2A79473100F68C7D /* AppDelegate.swift */,
+				B34CE9ED2A79473100F68C7D /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		B3EC5ECC2A79E5D600B640BF /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B34CE9F12A79473100F68C7D /* Main.storyboard */,
+				B34CE9F42A79473300F68C7D /* Assets.xcassets */,
+				B34CE9F62A79473300F68C7D /* LaunchScreen.storyboard */,
+				B34CE9F92A79473300F68C7D /* Info.plist */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		B3EC5ECD2A79E91D00B640BF /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B3EC5ECE2A79E98100B640BF /* Home */,
+				B3EC5ECF2A79E98C00B640BF /* Tools */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B3EC5ECE2A79E98100B640BF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B3EC5ED02A79E9AD00B640BF /* FLHome.storyboard */,
+				B3EC5ED42A79E9C900B640BF /* Model */,
+				B3EC5ED32A79E9BE00B640BF /* View */,
+				B3EC5ED22A79E9B100B640BF /* ViewController */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B3EC5ECF2A79E98C00B640BF /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				B3EC5EDA2A79EB1500B640BF /* FLTools.storyboard */,
+				B3EC5ED92A79EAA700B640BF /* Model */,
+				B3EC5ED82A79EAA200B640BF /* View */,
+				B3EC5ED72A79EA9800B640BF /* ViewController */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		B3EC5ED22A79E9B100B640BF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B3EC5ED52A79EA4100B640BF /* FLHomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B3EC5ED32A79E9BE00B640BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B3EC5EDE2A79FC7A00B640BF /* FLHomeListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B3EC5ED42A79E9C900B640BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3EC5EE02A7A02DF00B640BF /* FLHomeDataManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B3EC5ED72A79EA9800B640BF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B3EC5EDC2A79EB3300B640BF /* FLToolsMainViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B3EC5ED82A79EAA200B640BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B3EC5ED92A79EAA700B640BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E47E23AE00E0C0F32EA3A491 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				5614178C99DD99BA6CE3F59F /* Pods-FunLife.debug.xcconfig */,
 				15A97C8AC514291B07F16C4C /* Pods-FunLife.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -217,8 +339,10 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = FL;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
+				ORGANIZATIONNAME = china;
 				TargetAttributes = {
 					B34CE9E72A79473100F68C7D = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -261,6 +385,8 @@
 				B34CE9F82A79473300F68C7D /* LaunchScreen.storyboard in Resources */,
 				B34CE9F52A79473300F68C7D /* Assets.xcassets in Resources */,
 				B34CE9F32A79473100F68C7D /* Main.storyboard in Resources */,
+				B3EC5ED12A79E9AD00B640BF /* FLHome.storyboard in Resources */,
+				B3EC5EDB2A79EB1500B640BF /* FLTools.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,8 +453,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B34CE9F02A79473100F68C7D /* ViewController.swift in Sources */,
+				B3EC5ED62A79EA4200B640BF /* FLHomeViewController.swift in Sources */,
+				B3EC5EDD2A79EB3300B640BF /* FLToolsMainViewController.swift in Sources */,
+				B3EC5ECA2A79E4B600B640BF /* FLRootViewController.swift in Sources */,
+				B3EC5EC82A79E4B600B640BF /* FLMainTabBarController.swift in Sources */,
+				B3EC5EC92A79E4B600B640BF /* FLBaseViewController.swift in Sources */,
+				B3EC5EDF2A79FC7A00B640BF /* FLHomeListCell.swift in Sources */,
+				B3EC5EC72A79E4B600B640BF /* FLMainNavigationController.swift in Sources */,
 				B34CE9EC2A79473100F68C7D /* AppDelegate.swift in Sources */,
+				B3EC5EE12A7A02DF00B640BF /* FLHomeDataManager.swift in Sources */,
 				B34CE9EE2A79473100F68C7D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
