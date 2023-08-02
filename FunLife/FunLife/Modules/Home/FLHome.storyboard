@@ -86,11 +86,28 @@
                     <navigationItem key="navigationItem" id="NTB-lZ-1CT"/>
                     <connections>
                         <outlet property="tableView" destination="ERG-Td-Qhn" id="Dcm-2B-Jjg"/>
+                        <segue destination="6sp-iD-Gbr" kind="push" id="KA3-DH-4aS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYf-CO-ifh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="523" y="-54"/>
+        </scene>
+        <!--Moya View Controller-->
+        <scene sceneID="XyD-8l-DBl">
+            <objects>
+                <viewController storyboardIdentifier="FLMoyaViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6sp-iD-Gbr" customClass="FLMoyaViewController" customModule="FunLife" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NzB-hJ-CVI">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="WtP-4i-8kr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9NP-eh-vaW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qF4-3s-eqe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1619" y="-54"/>
         </scene>
     </scenes>
     <resources>

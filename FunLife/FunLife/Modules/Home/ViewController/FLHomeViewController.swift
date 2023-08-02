@@ -48,6 +48,15 @@ class FLHomeViewController: FLBaseViewController,UITableViewDataSource,UITableVi
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        
+        let item : FLHomeDataItem = dataSource[indexPath.row]
+        switch item.id {
+        case 0:
+            let moyaViewController : FLMoyaViewController = storyboard?.instantiateViewController(withIdentifier: "FLMoyaViewController") as! FLMoyaViewController;
+            navigationController?.pushViewController(moyaViewController, animated: true)
+        default:
+            break
+        }
     }
 
     /*

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		380EDAF9883F424C62DE29AD /* Pods_FunLife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BCCA8D4B64403E9F0F5DEA4 /* Pods_FunLife.framework */; };
+		B3200B282A7A4BC500913DDA /* FLMoyaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3200B272A7A4BC400913DDA /* FLMoyaViewController.swift */; };
 		B34CE9EC2A79473100F68C7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34CE9EB2A79473100F68C7D /* AppDelegate.swift */; };
 		B34CE9EE2A79473100F68C7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34CE9ED2A79473100F68C7D /* SceneDelegate.swift */; };
 		B34CE9F32A79473100F68C7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B34CE9F12A79473100F68C7D /* Main.storyboard */; };
@@ -49,6 +50,7 @@
 		15A97C8AC514291B07F16C4C /* Pods-FunLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunLife.release.xcconfig"; path = "Target Support Files/Pods-FunLife/Pods-FunLife.release.xcconfig"; sourceTree = "<group>"; };
 		5614178C99DD99BA6CE3F59F /* Pods-FunLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunLife.debug.xcconfig"; path = "Target Support Files/Pods-FunLife/Pods-FunLife.debug.xcconfig"; sourceTree = "<group>"; };
 		7BCCA8D4B64403E9F0F5DEA4 /* Pods_FunLife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunLife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3200B272A7A4BC400913DDA /* FLMoyaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLMoyaViewController.swift; sourceTree = "<group>"; };
 		B34CE9E82A79473100F68C7D /* FunLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B34CE9EB2A79473100F68C7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B34CE9ED2A79473100F68C7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 		B34CEA082A79473300F68C7D /* FunLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B34CEA0C2A79473300F68C7D /* FunLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunLifeUITests.swift; sourceTree = "<group>"; };
 		B34CEA0E2A79473300F68C7D /* FunLifeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunLifeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B3C0DC7D2A7A635D0071A5FE /* FunLife-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FunLife-Bridging-Header.h"; sourceTree = "<group>"; };
 		B3EC5EC32A79E4B500B640BF /* FLMainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLMainNavigationController.swift; sourceTree = "<group>"; };
 		B3EC5EC42A79E4B500B640BF /* FLMainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLMainTabBarController.swift; sourceTree = "<group>"; };
 		B3EC5EC52A79E4B500B640BF /* FLBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLBaseViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +108,13 @@
 				7BCCA8D4B64403E9F0F5DEA4 /* Pods_FunLife.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3200B292A7A4BD200913DDA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		B34CE9DF2A79473100F68C7D = {
@@ -184,6 +194,7 @@
 				B34CE9F42A79473300F68C7D /* Assets.xcassets */,
 				B34CE9F62A79473300F68C7D /* LaunchScreen.storyboard */,
 				B34CE9F92A79473300F68C7D /* Info.plist */,
+				B3C0DC7D2A7A635D0071A5FE /* FunLife-Bridging-Header.h */,
 			);
 			name = SupportingFiles;
 			sourceTree = "<group>";
@@ -223,6 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				B3EC5ED52A79EA4100B640BF /* FLHomeViewController.swift */,
+				B3200B272A7A4BC400913DDA /* FLMoyaViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -239,6 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				B3EC5EE02A7A02DF00B640BF /* FLHomeDataManager.swift */,
+				B3200B292A7A4BD200913DDA /* Model */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -346,6 +359,7 @@
 				TargetAttributes = {
 					B34CE9E72A79473100F68C7D = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 					B34CE9FD2A79473300F68C7D = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -455,6 +469,7 @@
 			files = (
 				B3EC5ED62A79EA4200B640BF /* FLHomeViewController.swift in Sources */,
 				B3EC5EDD2A79EB3300B640BF /* FLToolsMainViewController.swift in Sources */,
+				B3200B282A7A4BC500913DDA /* FLMoyaViewController.swift in Sources */,
 				B3EC5ECA2A79E4B600B640BF /* FLRootViewController.swift in Sources */,
 				B3EC5EC82A79E4B600B640BF /* FLMainTabBarController.swift in Sources */,
 				B3EC5EC92A79E4B600B640BF /* FLBaseViewController.swift in Sources */,
@@ -638,6 +653,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N8Y57DTNM3;
@@ -653,12 +669,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_execute;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = china.FunLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FunLife/FunLife-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -668,6 +688,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N8Y57DTNM3;
@@ -683,12 +704,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_execute;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = china.FunLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FunLife/FunLife-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
